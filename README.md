@@ -6,7 +6,7 @@ AeriGUI is suited for regular GUI Application, but also for games and game GUI's
 AeriGUI has a limited choice of controls, but will of course be updated with new controls over time; however it's super easy to implement a custom control. Take a look at context.d (perhaps contextcontainer.d) and any modules in the controls folder.
 
 ### So why AeriGUI and why a new GUI library?
-I feel like a lot of GUI libaries tend to complicate stuff for rendering, customization and to make things look good; creating a huge cluster just for the GUI and then all the functions for the application comes.
+I feel like a lot of GUI libraries tend to complicate stuff for rendering, customization and to make things look good; creating a huge cluster just for the GUI and then all the functions for the application comes.
 Besides most GUI libraries are build upon the various OS API's for control rendering etc. which usually isn't the fastest (Ex. GDI) and they aren't that well suited to go with game development, because the painting and events usually can't be associated along with the game libraries.
 Ex. you can't mix up GDI with sfml very well.
 AeriGUI fixes that problem by using the event calls in sfml for eventhandling and painting, thus making it possible to not even using sfml directly for writing a game.
