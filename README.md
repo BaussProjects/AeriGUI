@@ -1,6 +1,6 @@
 # AeriGUI
 AeriGUI is a cross-platform (Windows, Linux & OSX) GUI library written in D using sfml (dsfml).
-It doesn't build around OS API's for contol rendering etc. so the rendering is pretty much guaranteed the same on all platforms.
+It doesn't build around OS API's for contol rendering etc. so the rendering is pretty much guaranteed to be the same on all platforms.
 It supports advanced GUI rendering with a lot of useful functions to design such as border-styling, image-styling, coloring, positionating in/to contexts.
 AeriGUI is suited for regular GUI Application, but also for games and game GUI's, since it's super fast at rendering / drawing; and builds on top of sfml which is meant to be used for games.
 AeriGUI has a limited choice of controls, but will of course be updated with new controls over time; however it's super easy to implement a custom control. Take a look at context.d (perhaps contextcontainer.d) and any modules in the controls folder.
